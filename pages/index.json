@@ -1,0 +1,25 @@
+{
+
+"hero": {
+    "background": "https://lh3.googleusercontent.com/FxmovysgAtTU-VjB8RH2imAe2OgwIjuVy5JCbtnm_D82mGJWrmn5-YghXuh33V99DAa8R-RLekQ0iNMp9u2XGEPU",
+    "logo": "https://lh3.googleusercontent.com/_D7aEHOTxLcdKYOM6e7o8_TsiEN0yr39h95a72b5UCDqK6BcU_G6N-uL7nitV8tg-gZGW8ac-HaIySlEJzB7f59N",
+    "slide1":"https://lh3.googleusercontent.com/fDKSzStbAOmcFYhaS56NzitK3u9CC2yhYrnGj2PXNwLd0vMdO1XL6z5IC0t0KewrCbckKjxXDAQincIK6K54f7Q_SGk",
+    "slide2":"https://lh3.googleusercontent.com/gJ71g0Jgzss5tlv2MJbdtjaLbRLfS74TKNOIbLUqwR2BSNNJzSr_06Ygbxoga2wZXiv9cufTszuAewzvKgzbi5DGfbc",
+    "slide3":"https://lh3.googleusercontent.com/tfZoGSgYiRPYToD-NwnvENPv2ms-QVJ8311_V7d4muw3Q78bFAdxqenwtYnZEr_K24oBPoXwX5qkzrpv8fSZuH9bXw",
+    "slide4":"https://lh3.googleusercontent.com/tmwjvgzyrv8RPnWNauxiS0_gPF-rumcIggs3HeiFp4DtFRzs1tZx6ubaox8FOrRzNq4vRLPFA-7w5uEVlU-QE-xI",
+    "slide5":"https://lh3.googleusercontent.com/btwhHwLmJ-_A-Tsxs3FJ5pbAMURQscpW0JEO4e1qem9haygHKS8lqTiXnXKQoGh3KbL50utuo_WY9KNWkaE1nEJWMSc"
+},
+"social": {
+    "instagram":"https://www.instagram.com/nuciferaart/?hl=es-la",
+    "shop":"https://nuciferaart.mitiendanube.com/productos/"
+},
+"bio": {
+    "img1":"https://lh3.googleusercontent.com/9UchYFDvGSaotf5-MUoUl18h0RYscr6y_Bvu4pRoFcIULD6fp7R8bPUXb8pMeAANHFmDr8q0AIR36B9__6CrQdhcBPE",
+    "img2":"https://lh3.googleusercontent.com/3k89SZFgEMz7usZB7yjWR3RFuyeu246nevlsZ5IsDf6MXpkCfavmm9MXSY6iUADA3tdxk-1BrHADOfO9akG5CtTMy40"
+},
+"shop": {
+    "background":"https://lh3.googleusercontent.com/08KVP2JpbuJPIYzRs7ApsvZMPk7Xl2FAf1y1QfRxlTGvJ7QIwq8IgV9g9MbE9Yzt6CN4wfxo4XPkbmQA2uysc1YR1A",
+    "promimg":"https://lh3.googleusercontent.com/e31T4bU0dVLJGF2Hp7zFeyFFUCTWA_h4Y-aShvpGQMc5qpKEaCXJJ4ilyS6T8AgoDwg0GIji6k3bt8r3zBniclUKdKI"
+}
+
+}

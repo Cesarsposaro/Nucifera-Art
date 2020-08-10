@@ -1,0 +1,108 @@
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+<!-- Latest compiled JavaScript -->
+<script src="{{{cdn}}}https://kit.fontawesome.com/e7bf5a3957.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link href="{{{global.img_favicon}}}=s32-c" type="image/png" rel="icon" />
+<link href="{{{cdn}}}/dist/css/style.min.css" rel="stylesheet">
+<style>
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  
+  .cuadro {
+      position:relative;
+      width: 100%;
+      height: auto;
+      border-radius: 1px;
+      box-shadow:1px 1px 2px grey;
+  }
+  
+  .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scale(0);
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: .8s ease;
+  }
+  
+  .cuadro:hover .overlay {
+       transform: scale(1);
+  }
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.9); 
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height:auto;
+  }
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .overlay p {
+      color: honeydew;
+      
+  }
+  
+  
+  .hide {
+      position: relative;
+      left:-2500px;
+  }
+  
+  
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  a:hover {
+      zoom : 110%;
+      text-shadow: 1px 1px 1px grey;
+  }
+</style>

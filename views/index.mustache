@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{global.site_name}}</title>
+    <meta name="description" content=""/>
+    {{>head}}
+    <link rel="stylesheet" href="../public/css/estilos.css">
+</head>
+<body>
+<section class="smart-scroll" style ="display:none;">
+ <div class="container-fulid">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light py-0" style="background-color:rgba(255,255,255, 0.479);">
+   <div class="navbar-brand">
+   <img class="img-logo" src="{{{page.hero.logo}}}=s48"/>
+   </div>
+    <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+   <div class="collapse navbar-collapse" id="navbarCollapse">
+   <ul class="navbar-nav ml-auto mobile-nav">
+   <li class="nav-item">
+   <a class="nav-link" href="/#hero">Inicio</a>
+   </li>
+   <li class="nav-item">
+   <a class="nav-link" href="/#about">Sobre mi</a>
+   </li>
+   <li class="nav-item">
+   <a class="nav-link" href="/#gallery">Galería</a>
+   </li>
+   <li class="nav-item">
+   <a class="nav-link" href="/#shop">Productos</a>
+   </li>
+   </ul>
+   </div>
+  </nav>
+ </div>
+</section>
+<section id="hero" style="background:url('{{{page.hero.background}}}=s1800');background-size:cover;background-position:center;">
+    <div class="gradient-div py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between header-row">
+                <div class="col-12 col-md-6 col-lg-6 section-intro mb-3">
+                     <img src="{{{page.hero.logo}}}=s320-c" style="background-color:rgba(245, 249, 252, 0.671);width:200px;border-radius:50%;">
+                    <h1 class="display-3 mt-4 lead text-white">Nucifera Art</h1>
+                    <p class="lead text-white mb-4 mt-4" style="font-size:25px;">
+                    Arte, cuadros, ilustraciones y más...
+                    </p>
+                    <a class='fa fa-instagram' href="{{{page.social.instagram}}}" target='_blank' style='text-decoration:none;font-size:60px;color:honeydew;'>&nbsp;&nbsp;</a>
+                    <a class='fa fa-cloud' href="{{{page.social.shop}}}" target='_blank' style='text-decoration:none;font-size:60px;color:honeydew;'>&nbsp;&nbsp;</a>
+                </div>
+                <!--end of col-->
+                <div class="col-12 col-md-6 col-lg-5 mx-auto">
+                   <div  class = "pepe" style='box-shadow:1px 1px 2px black'>
+                   <img class="rounded-corner img-fluid"  src="{{{page.hero.slide1}}}=s780"/>
+                   </div>
+                    <div class = "pepe" style='box-shadow:1px 1px 2px black'>
+                   <img class="rounded-corner img-fluid"  src="{{{page.hero.slide2}}}=s780"/>
+                   </div>
+                    <div class = "pepe" style='box-shadow:1px 1px 2px black'>
+                   <img class="rounded-corner img-fluid"  src="{{{page.hero.slide3}}}=s780"/>
+                   </div>
+                    <div class = "pepe" style='box-shadow:1px 1px 2px black'>
+                   <img class="rounded-corner img-fluid"  src="{{{page.hero.slide4}}}=s780"/>
+                   </div>
+                    <div class = "pepe" style='box-shadow:1px 1px 2px black'>
+                   <img class="rounded-corner img-fluid"  src="{{{page.hero.slide5}}}=s780"/>
+                   </div>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+    </div>
+</section>
+<section id="about" class="py-md-5 block">
+    <div class="container">
+        <div class="row block-header">
+            <div class="col-sm-8 mx-auto text-center align-items-center">
+                <h1 class="display-6 mt-2 section-title text-muted"><strong>Candela Cussa</strong></h1>
+                <hr style= "width:70%;">
+            </div>
+        </div>
+        <div class="row mt-4 align-items-center mb-5">
+            <div class="col-md-6 ml-0">
+                <strong class="lead">
+Nací en la Provincia de Buenos aires un 11 de febrero de 1988, a los 8 años de edad me fui a vivir a Villa Carlos Paz, desde el 2010 resido en Buenos Aires.
+Comencé mi relación con el arte a muy temprana edad realizando cursos particulares de pintura, teatro, dibujo y xilografía, y a mediana edad comencé  asistir a talleres infanto juveniles de arte  en la Facultad de Artes Visuales Figueroa Alcorta. Luego al finalizar mis estudios, realicé la carrera de Bellas Artes en la Nueva Escuela de Diseño y Comunicación . Actualmente curso en el  Instituto Vocacional del Arte - Manuel José de Labardén (Se trata de un proyecto experimental y renovador en la enseñanza artística: una política educativa que  se aplica atendiendo a la perspectiva teórica y pedagógica de la “Educación por el Arte”).
+En el medio siempre he colaborado con distintos proyectos y marcas de emprendedores siendo mi arte un valor agregado para su producto .
+Actualmente tengo mi marca Nuciferaart que he lanzado en el año 2018.</strong>
+            </div>
+            <div class="col-md-5 order-md-first">
+                <img class="rounded-corner" src="{{{page.bio.img1}}}" alt="...">
+            </div>
+        </div>
+        <div class="row align-items-center mt-5">
+            <div class="col-md-6 mr-0">
+                <strong class="lead">Una inconfundible paleta de colores vibrantes domina mis obras, con trazos que detonan detallismo e impulsividad. El resultado es un arte que aún sin representar a veces una imagen real de la naturaleza, siempre logra transmitir su vitalidad y energía . Mis obras muestran flores, animales, frases y figuras abstractas, pero el verdadero protagonista de mis obras, son las emociones que expresa y transmite, predominando la alegría y el optimismo en cada pincelada .
+Participó de Muestras, Ferias, exposiciones, eventos y talleres de ilustración.
+Mi formación artística también incluye maquillaje artístico, teatro, escultura, historia del arte y fotografía.</strong>
+            </div>
+            <div class="col-md-5">
+                <img class="rounded-corner" src="{{{page.bio.img2}}}" alt="...">
+            </div>
+        </div>
+    </div>
+</section>
+<section id = "gallery" class="py-5 py-md-7">
+    <div class="container">
+        <div class="row block-header">
+            <div class="col-sm-8 mx-auto text-center">
+                <h1 class="display-4">Galería</h1>
+                <hr style = "width:80%;">
+                <p class="lead"><strong>A continuación pueden ver mis obras más destacadas</strong></p>
+            </div>
+        </div>
+        <div id = "gal" class = "row mt-5 hide">
+         {{#projects}}
+         <div class = "col-md-6 col-sm-12 mb-2r mt-1">
+          <div class = "cuadro">
+           <img src = "{{{image}}}">
+           <div class = "overlay lead text-white">
+           <h1>{{name}}</h1>
+           <br>
+           <p><strong>Técnica utilizada: {{category}}</strong></p>
+           <p><strong>Dimensiones: {{preview}}</strong></p>  
+           <p><strong>Precio: $ {{client}}</strong></p>
+           <br>
+           <a href = "/project/{{{slug}}}" class="btn btn-light" style = "border-radius:30px;">
+           <strong>MAS INFO</strong>
+           </a>
+           </div>
+          </div>
+         </div>
+         {{/projects}}
+        </div>
+    </div>
+</section>
+<section id="shop" class="bg-white fullwidth-split">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-12 col-lg-6 fullwidth-split-image d-sm-flex align-items-center pt-0">
+             <img src="{{{page.shop.promimg}}}=s640"/>
+            </div>
+            <!--end of col-->
+            <div class="col-12 col-sm-12 col-lg-6 p-4" style="background:url('{{{page.shop.background}}}=s1024');background-size:cover;background-position:center;">
+                <div class="col-12 col-sm-8">
+                    <h3 class="display-4 mt-4">Conseguí nuestros productos en tienda nube!</h3>
+                    <strong class="lead"> Hacemos tazas, imanes, stickers, cuadros y mucho mas!</strong>
+                    <br>
+                    <strong class="lead">Si querés un diseño personalizado, contactate conmigo a candelacussa@gmail.com</strong>
+                    <a class = "btn btn-success mt-4" style="box-shadow: 1px 1px 1px grey;font-size:20px;" href="{{{page.social.shop}}}">
+                    <i class='fa fa-cloud'></i>&nbsp;Ir a tienda nube</a>
+                </div>
+            </div>
+            <!--end of col-->
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<footer class="pt-3">
+    <div class="container pt-3 pb-3">
+        <div class="row">
+            <div class="col-12 col-sm-5 col-lg-6">  
+            <stronng class = "lead" style="color:orange;">Nucifera Art</strong>&nbsp;| Candelacussa@gmail.com<p>
+             <a class='fa fa-instagram' href="{{{page.social.instagram}}}" target='_blank' style='text-decoration:none;font-size:25px;color:honeydew;'>&nbsp;&nbsp;</a>
+            <a class='fa fa-cloud' href="{{{page.social.shop}}}" target='_blank' style='text-decoration:none;font-size:25px;color:honeydew;'></a>
+            <br>
+            <small>Desarrollado por Ludovico Sposaro | Todos los derechos reservados</small>
+            </div>
+            <div class="col-12 col-sm-5 col-lg-6 my-auto text-center">
+                <span class="align-middle">
+                <a href = "/#hero" style = "color: orange;text-decoration:none;font-weight:bold;" >Inicio</a>
+                <strong>|</strong>
+                <a href = "/#about" style = "color: orange;text-decoration:none;font-weight:bold;" >Sobre mi</a>
+                <strong>|</strong>
+                <a href = "/#shop" style = "color: orange;text-decoration:none;font-weight:bold;" >Productos</a>
+                <strong>|</strong>
+                <a href = "/#gallery" style = "color: orange;text-decoration:none;font-weight:bold;" >Galería</a>
+                </span>
+             </div>   
+        </div>
+    </div>
+</footer>
+
+{{>scripts}}
+</body>

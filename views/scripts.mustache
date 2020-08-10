@@ -1,0 +1,40 @@
+<script>window.__PRELOADED__ = {{{preloaded}}}</script>
+
+<script src="{{{cdn}}}/dist/js/vendor.min.js"></script>
+<script src="{{{cdn}}}/js/custom.js"></script>
+<script src="../public/js/scripts.js"></script>
+<script> 
+  var slideIndex = 0;
+
+$(document).ready( () => {
+  showSlides();
+  $(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $(".smart-scroll").show("slow");
+  }
+  else {
+    $(".smart-scroll").hide("slow");
+  }
+  if ($(window).scrollTop() >= ($(document).height() - $(window).height())) {
+      $(".smart-scroll").hide("slow");
+    }
+  if ($(window).scrollTop() >= ($("#hero").height() + $("#about").height()) - 250) {
+     $('#gal').animate({left: "1px"}, 1200);
+  }
+});
+});
+
+ showSlides = () => {
+    var i;
+    var slides = document.getElementsByClassName("pepe");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 5000);
+  };
+
+
+</script>
