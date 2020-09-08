@@ -9,15 +9,15 @@
 <!-- Latest compiled JavaScript -->
 <script src="{{{cdn}}}https://kit.fontawesome.com/e7bf5a3957.js"></script>
 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../public/css/estilos.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link href="{{{global.img_favicon}}}=s32-c" type="image/png" rel="icon" />
 <link href="{{{cdn}}}/dist/css/style.min.css" rel="stylesheet">
+
 <style>
 html {
     scroll-behavior: smooth;
-  }
-  
-  
+  }  
   
   .cuadro {
       position:relative;
@@ -27,6 +27,17 @@ html {
       box-shadow:1px 1px 2px grey;
   }
   
+  .cuadro img  {
+      max-width: 640px;
+      max-height: 640px;
+  }
+
+  
+  .pepe img {
+      max-width: 500px;
+      max-height: 500px;
+  }
+
   .overlay {
     display: flex;
     justify-content: center;
@@ -39,8 +50,18 @@ html {
     transform: scale(0);
     background-color: rgba(0, 0, 0, 0.8);
     transition: .8s ease;
+    text-align: center;
   }
   
+
+  .overlay p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top:0;
+
+  }
+
   .cuadro:hover .overlay {
        transform: scale(1);
   }

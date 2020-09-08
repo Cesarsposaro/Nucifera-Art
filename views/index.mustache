@@ -4,7 +4,6 @@
     <title>{{global.site_name}}</title>
     <meta name="description" content=""/>
     {{>head}}
-    <link rel="stylesheet" href="../public/css/estilos.css">
 </head>
 <body>
 <section class="smart-scroll" style ="display:none;">
@@ -118,12 +117,14 @@ Mi formación artística también incluye maquillaje artístico, teatro, escultu
          {{#projects}}
          <div class = "col-md-6 col-sm-12 mb-2r mt-1">
           <div class = "cuadro">
-           <img src = "{{{image}}}">
-           <div class = "overlay lead text-white">
+           <img  src = "{{{image}}}">
+           <div class = "overlay lead text-white p-2">
            <h1>{{name}}</h1>
            <br>
            <p><strong>Técnica utilizada: {{category}}</strong></p>
+           <br>
            <p><strong>Dimensiones: {{preview}}</strong></p>  
+           <br>
            <p><strong>Precio: $ {{client}}</strong></p>
            <br>
            <a href = "/project/{{{slug}}}" class="btn btn-light" style = "border-radius:30px;">
